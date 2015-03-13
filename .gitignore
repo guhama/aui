@@ -1,0 +1,6 @@
+.classpath
+.project
+.settings/
+target/
+**/portlet.xml
+**/test-output/

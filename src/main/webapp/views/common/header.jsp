@@ -1,0 +1,27 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" style="padding: 5px 0px" "href="<c:url value="/npi-facility-transmission/file-upload"/>">
+			<img alt="Premier Inc."
+				src="data:image/gif;base64,R0lGODlhkAAoAPf/AGFDTGKDT/T69SmNqWN8UDRoqU+tSWRsUfD3+mRzUValRlyaSA55tjKRilwrRRR9r+vm6ntFZ0+uRkxZlJq4j1MFOVgUPloiQjlmpkqmWlYMQtXBzlkVS2MlS1spXSGKmTqZewB1vFkbQF0wRkKebV6USg5xtvL4+D2admRkUUVfncmxwVs9cUWhZWKKTlw5bWNRTkejYmA+Sur06GNZUFwyZVJSik2rTmJJTTeWgS2PkRuFoVQJOlw2aVtAdUyqUQZ3uXKJt2COTGJOTk5XklocUFMDN1ZOhhl/q1hHfVdLgVslWB6InmReURR7slWqRUupU1miR2NWT1meR1UIPlYOPDmXflFVj185SRmBqRmDpVpFelwtYR5tsRlvswJ0u1sgVFoYTi5qrBRwtSlrrgpyt142SFZlZY6YmMfLy1CvQ9XY2EhYWGVyciw+PpylpfHy8uPl5TpLS6qxsXN/f7i+voGLiwVzuVGuQ0ddmkBioJ/L5klcmOnf5j5jolJTjFOrRFZMg59yj4uPfXtcheHn3lusen+63T+ccuro77G0qMKuwqXQyoC8tJmRjE6sS8zexlphmGuRWHzDclu0T3CysvT1+eDT3ODW3MLO4qfXoRB+wLLbrd/d59To7m2zmt/u9zWOt21iW7vEs6bJ476gtE2hq+Le3leohHlIciaMljWUhECccVKsRBtzrnMyXfXz9s/l8oBLbtri7lYRRVgRR3qjzJ6mkyCGxD+SwnK3j3a7hnS5i8De17esxHd0Z7C30Zl2llhIf+by7zJ1tOn16DCQjdTT4b/c7m1Cb0CYzZLNipzRmGOlU2a5Wzxko8KwuUVwrEuoVGBZjbepv3Ky2KHNl0Jhn5F2gWy4dnG+ZiNssDxlpWSPwLK0zlRQiFGtQ3iDsEijYEikXcbizMjmxGUzTzOSiDSThamCm2yrukSfaEOfani+gJeMrZSTtVCuQz+bcyuOk9Lq0yiMlc/m21pDeGkjUVWiRiNsrxqDo0qnVkOcicq0wh4xMf///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjNDRUFFMDhDOTEyMDY4MTE4QTZERjBFQjkwQTUyNjU0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkIxRTYxNTJBQjJEMDExRTFCOTE0QjE0RjVDOTcxMjk0IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkIxRTYxNTI5QjJEMDExRTFCOTE0QjE0RjVDOTcxMjk0IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUuMSBNYWNpbnRvc2giPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5Njk3NkIwNTk2MjA2ODExOEE2REYwRUI5MEE1MjY1NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozQ0VBRTA4QzkxMjA2ODExOEE2REYwRUI5MEE1MjY1NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAEAAP8ALAAAAACQACgAAAj/AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmyZMVlatQ4m6SpXDGTMGNKnNEKHB54KVNq4/RSps+fBa0pePIEUM6UBm60Iwe0qcxmUaIoMJpTwg1pGWIYque0q0hIC8JOwVP10Y8M4lqQQPRpmNe3HCmUmDvlqIEf+8a1YMcKBQh+jOAKvijJhRAhdZFezbqOhN8c6BpUOjG4MsRCATK7UJBSwiMoaNXGA2Fl1Tlj8kxRtsxa4SgCsANwhmc22y5eulChsJLjtA5VHwZ4ak3c4K0EyAngo8RsnsETvRo10EHvAxN9whm28ce9e5s0B7uL/2cz5+Ab8ejXFDzjD81B9u4Lbn9jkD167mcKrrnvj02dgoMcIGACFAiw0AnqWLeDFlmEgsBC9t1XXkH8cWeHQWhU6I96BNnH4UDntVefiOtVmB9BaWg4oUC/pODiAYo0ZIsrWuiTBRIP5AIhiXDUwYY/bsBBoT/gCZTGdv7EUVCGJ+7YH0FxuMFdfB2SWCWVCaXoz0BwpPGjP0IKRMOYTTThSEPddFHGAzg6wUA1CsEHJXdFDkRnQXL4Qx9BTDYUIZVfWjmQnCViiZCWBcFxp0BDwACDFFKI0lAB25gQAgNuAhECMgkRaieRQ9YpkJR7DtQnQ+x9qV6GQAoqkKeDuv96EKIEKQqqQDjkOkSjpyyUCQZkjPHFpZqGgEungoaoJEGL/rMGksuaCuQZ1Fb7Yax15MmGlnbA+qqs7MlRLbVtGESrQGv8GORAMsgAwLs4nKlQEBiI4cUdIYQwbAiHIHsGGmjY8WW5Q/J34ZIVGvoPe2ns16occHi7MLgVmqsiQWaYgQUW7coAQUKzqPBMAWrmm68ycfLXRpjM3ifHfxj6IwfANKNx7bfgsbrhxApLzN6/NZc6kJbobVuQAw6MoHTG2CQUjgp+FJCPpfluAkrKQAN886dFqrv1P6fu2DWJPlOssMVb/gOHutEKFMEFcCOdNDQHeTNBHnoAK2y+sez/eLZBi8IhJcQxN5lykWtQWXbPsqI90BpSslGQLBZULoIIcJuDSUHH/EEEH9dwYy++e6DaOOC3/qMlwXz2l8brsIuK83tmj0hH7K/ffO4/c3BHB0Hp8CB8FVVY3sElA3UyjQ2fi0xyGaWb/neoBIVoqM73yc4w7YwzXjGK3BVkB3cw/7OCEehXUMHwVXTQzz++JBGIDVdMAHUBxJDi0HwNSdn2P3TwB+sEEiL+3Gw7Xwug0ATCP/lUyA0FiQOQbDeQPqDvghdcHw+S4YMkKOEb9cNbNGZRnBIW5BUYxCAtPPACH2xBCUfwHB+CYAkT2lAggsggFTTAgSVwoQct3IIwbI5gg0gA44ZItGAFNFALDhQBDB7gQg1ewAJ7yO8dNUQiEiNQgR06EQw+rEEPWOADdyRCi2gsRReZGAYweqAGhKAGLNBIx3/cY4e1CEMqgrGIj9WxjhtYwQaQ98dCGvKQiEykIhfJyEY6cjABAQA7" />
+			</a>
+			<a class="navbar-brand" href="<c:url value="/npi-facility-transmission/file-upload"/>">&nbsp;| Clinical Registry </a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a id="file-upload" href="<c:url value="/npi-facility-transmission/file-upload"/>">File Upload</a></li>
+				<li><a id="table-interface" href="<c:url value="/npi-facility-transmission/table-interface"/>">Table Interface</a></li>
+			</ul>
+			<p class="navbar-text navbar-right">
+				Welcome
+				<c:out value="${userInfo.firstName}" />
+				| <a href="<c:url value="/logout"/>">Logout</a>
+			</p>
+		</div>
+	</div>
+</div>

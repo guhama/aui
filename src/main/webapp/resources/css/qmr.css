@@ -1,0 +1,63 @@
+.hide-text {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+body {
+	padding-top: 60px;
+	background-color: #fafafa !important;
+}
+
+#dropzone {
+	background: #5cb85c;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	border-color: black;
+	border-radius: 5px;
+	border: 2px dashed;
+	text-align: center;
+	line-height: 50px;
+}
+
+#dropzone.in {
+	width: 600px;
+	height: 200px;
+	line-height: 200px;
+	font-size: larger;
+}
+
+#dropzone.hover {
+	background: #449d44;
+}
+
+#dropzone.fade {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	opacity: 1;
+}
+
+.ui-jqgrid .ui-pg-input {
+	height: auto !important;
+}
+
+/*stops the grid expanding past the bounds of the container, but allows it to shrink below when there are too few columns*/
+.ui-jqgrid-htable, .ui-jqgrid-btable, .ui-jqgrid-pager, .ui-jqgrid-view,
+	.ui-jqgrid-bdiv, .ui-jqgrid-hdiv, .ui-jqgrid-hbox, .ui-jqgrid {
+	max-width: 100% !important;
+	width: 100% !important;
+}
+/*this fixes a bug when you fully scroll to the right when you have many columns in the grid*/
+.ui-jqgrid-htable {
+	padding-right: 17px;
+}
+
+.ui-jqgrid-hbox {
+	padding-right: 0px !important;
+}
